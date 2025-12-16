@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <hade>
+        <link rel="stylesheet" type="text/css" href="back.css">
+    </hade>
+    <body>
+        <div class="back contaenar">
+            <span class="back-class">
+            <p>به باشگاه بدن سازی وزیری خوش امدید </p>
+            <div class="button">
+            <button onclick="go()">برای ثبت نام کلیک کنید</button>
+            <script>
+                function go(){
+                    window.location.href ="index.html";
+                }
+             let numberOne = Number(prompt("If you want to know if your number is even or odd, just enter the number..."));
+             function oddCouple (a){
+                 if( numberOne % 2 ){
+                    alert("عدد زوج میباشد");
+                 }else if(numberOne % 1) {
+                    alert("عدد فرد میباشد");
+                 } else {
+                    ("عدد صحیح نمیباشد");
+                 } 
+             }
+             oddCouple(numberOne);
+            let ageGym = Number(prompt("سن خود را وارد کنید"));
+            function ageGymOne (a){
+                if(ageGym < 18){
+                    alert("ثبت نام ممنوع");
+                }else if(ageGym > 18 && ageGym < 40 ){
+                    alert("ثبت نام مجاز میباشد");
+                }else if(ageGym > 40 && ageGym < 55){
+                    alert("نیاز به چک مربی");
+
+                }else if(ageGym>55){
+                    alert("نیاز به چک پزشک دارد");
+                }
+                else {("خطاااااااااااااااا");};
+            }
+
+             ageGymOne(ageGym);
+             let price = Number(prompt("لطفا نوع عضویت را وارد کنید (1 تا 4): "));
+
+function Membership(price){
+    switch(price){
+        case 1:
+            alert("یک میلیون تومان - یک ماه");
+            break;
+        case 2:
+            alert("پنج میلیون تومان - سه ماه");
+            break;
+        case 3:
+            alert("ده میلیون تومان - هشت ماه");
+            break;
+        case 4: 
+            alert("دوازده میلیون تومان - یک سال");
+            break;
+        default:
+            alert("گزینه وارد شده صحیح نیست");
+    }
+}
+Membership(price);
+
+
+// ---- سن ----
+
+let age = Number(prompt("سن خود را وارد کنید"));
+
+function checkAge(age) {
+    if(age < 18 ){
+        alert("سن شما مجاز به ثبت نام نیست ❌");
+    
+    }else if(age >= 18 && age <= 50){
+        alert("سن شما مجاز می‌باشد ✔️");
+    
+    }else if(age > 50){
+        alert("شما در دسته‌بندی نرم قرار می‌گیرید ⚠️");
+    
+    } else {
+        alert("عدد وارد شده صحیح نمی‌باشد");
+    }
+}
+
+checkAge(age);
+            </script>
+            </div>
+            </span>
+          </div>
+    </body>
+</html>

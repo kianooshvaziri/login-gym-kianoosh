@@ -1,0 +1,62 @@
+body{
+   
+    background-image:url("./-46.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    direction: rtl;
+}
+.contaenar{
+    width: 80%;  
+    margin: 0 auto;  
+    padding: 20px;  
+    background-color: #f0f0f0;  
+    border: 1px solid #ccc; 
+    margin-top: 100px; 
+}
+.back{
+    width: 1000px;
+    height: 700px;
+    background-color: #aaaa;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px;
+}
+.back .back-class{
+    height: 100px;
+    width: 900px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.back .back-class p{
+    color: #000000;
+    font-size: 2rem;
+}
+.back .back-class .button button{
+    width: 300px;
+    height:50px;
+    border: 1px solid #000000;
+    border-radius: 5px 5px;
+    background-color: rgb(5, 163, 47);
+    cursor: pointer;
+}
+.back .back-class .button button:hover{
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000000;
+    border-radius: 5px 5px;
+    background-color: rgb(0, 255, 68);
+    cursor: pointer;
+}
+.prompt{
+    border: 20px solid black;
+    height: 1100px;
+    width: 250px;
+    background-color: #d00707;
+}

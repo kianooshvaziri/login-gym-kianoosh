@@ -1,0 +1,26 @@
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div id="myPrompt">
+      <div class="box">
+          <p>سلام نام خود را وارد کنید</p>
+          <input id="inp" />
+          <button onclick="send()">ثبت</button>
+      </div>
+    </div>
+    <script>
+      function myPrompt(){
+       document.getElementById("myPrompt").style.display = "flex";
+    }
+    
+    function send(){
+       let name = document.getElementById("inp").value;
+       cheng(name);
+       document.getElementById("myPrompt").style.display = "none";
+    }
+    
+    </script>
+  </body>
+</html>

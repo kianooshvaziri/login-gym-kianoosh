@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="frame contaenar">
+    <span class="input-frame">
+        <form>
+            <label for="name">نام</label>
+            <input id="name" type="text" placeholder=" لطفا نام ورزشکار را وارد کنید">
+            <label for="family">نام خانوادگی</label>
+            <input id="family" type="text" placeholder="لطفا نام خانوادگی ورزشکار را وارد کنید">
+            <label for="id number">کدملی</label>
+            <input id="id number" type="number" placeholder="لطفا کدی ملی ورزشکار را وارد کنید">
+            <label for="addres">آدرس محل سکونت</label>
+            <textarea id="addres" placeholder="آدرس" rows="4" cols="50"></textarea>
+        </form>
+        <div class="button-class">
+          <span class="button-back"><button onclick="gowellcome()">بازگشت</button></span>
+          <button onclick="goNext()">ثبت</button>
+          <script>
+            function goNext() {
+           window.location.href = "suggset.html";
+  }   
+           </script>
+           <script>   
+             function gowellcome(){
+            window.location.href ="bakc.html";
+    }
+    </script>
+        </div>
+    
+</span>
+  </div>
+</body>
+</html>
